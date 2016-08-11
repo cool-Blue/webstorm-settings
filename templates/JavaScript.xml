@@ -1,0 +1,37 @@
+<templateSet group="JavaScript">
+  <template name="reqr" value="const $requireAs$ = require('$sourcePath$');" toReformat="false" toShortenFQNames="true">
+    <variable name="requireAs" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="sourcePath" expression="" defaultValue="requireAs" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="testemit" value="var cb = sinon.spy(completed);&#10;&#10;function completed() {&#10;&#10;    if(cb.callCount &lt; $recallCount$)&#10;        return;&#10;&#10;    expect(cb).to.have.been.called$calls$;&#10;    expect(cb).to.have.been.calledOn($context$);&#10;    expect(cb).to.have.been.calledWithExactly($args$);&#10;&#10;    done()&#10;}&#10;" description="create a spy'ed callback function with tests for calls, args and context" toReformat="true" toShortenFQNames="true">
+    <variable name="recallCount" expression="" defaultValue="0" alwaysStopAt="true" />
+    <variable name="calls" expression="enum(&quot;Once&quot;,&quot;Twice&quot;,&quot;Thrice&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="context" expression="" defaultValue="&quot;null&quot;" alwaysStopAt="true" />
+    <variable name="args" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="descr" value="describe('$TESTNAME$', function () {&#10;    $END$&#10;});" description="mocha describe block" toReformat="false" toShortenFQNames="true">
+    <variable name="TESTNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="it" value="it('$STATE$', function (done) {&#10;    $END$&#10;    done();&#10;});" description="mocha it statement" toReformat="false" toShortenFQNames="true">
+    <variable name="STATE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="setint" value="setInterval($FUNC$, $PERIOD$);" shortcut="SPACE" description="setInterval" toReformat="false" toShortenFQNames="true">
+    <variable name="FUNC" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PERIOD" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

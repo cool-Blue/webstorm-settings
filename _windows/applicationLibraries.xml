@@ -1,0 +1,148 @@
+<application>
+  <component name="libraryTable">
+    <library name="browserify" type="javaScript">
+      <properties>
+        <option name="frameworkName" value="node_modules" />
+        <sourceFilesUrls>
+          <item url="file://$USER_HOME$/AppData/Roaming/npm/node_modules/browserify/index.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/AppData/Roaming/npm/node_modules/browserify/index.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="browserify-DefinitelyTyped" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_github.com_DefinitelyTyped_DefinitelyTyped_raw_master_browserify_browserify.d.ts" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_github.com_DefinitelyTyped_DefinitelyTyped_raw_master_browserify_browserify.d.ts" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="chrome-DefinitelyTyped" type="javaScript">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.WebStorm10/system/extLibs/http_github.com_borisyankov_DefinitelyTyped_raw_master_chrome_chrome-app.d.ts" />
+        <root url="file://$USER_HOME$/.WebStorm10/system/extLibs/http_github.com_borisyankov_DefinitelyTyped_raw_master_chrome_chrome-cast.d.ts" />
+        <root url="file://$USER_HOME$/.WebStorm10/system/extLibs/http_github.com_borisyankov_DefinitelyTyped_raw_master_chrome_chrome.d.ts" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="d3" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$USER_HOME$/Documents/GitHub/d3" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/Documents/GitHub/d3" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="d3-libs" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$USER_HOME$/Documents/Visual Studio 2013/Projects/d3/libs" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/Documents/Visual Studio 2013/Projects/d3/libs" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="gulp-DefinitelyTyped" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_github.com_DefinitelyTyped_DefinitelyTyped_raw_master_gulp_gulp.d.ts" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_github.com_DefinitelyTyped_DefinitelyTyped_raw_master_gulp_gulp.d.ts" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="hammer" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$USER_HOME$/Documents/Visual Studio 2013/hammer" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/Documents/Visual Studio 2013/hammer" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="jQuery" type="javaScript">
+      <properties>
+        <option name="frameworkName" value="jQuery" />
+        <sourceFilesUrls>
+          <item url="file://$USER_HOME$/Documents/Visual Studio 2013/jQuery" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/Documents/Visual Studio 2013/jQuery" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="mocha" type="javaScript">
+      <properties>
+        <option name="frameworkName" value="node_modules" />
+        <sourceFilesUrls>
+          <item url="file://$USER_HOME$/AppData/Roaming/npm/node_modules/mocha/mocha.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/AppData/Roaming/npm/node_modules/mocha/mocha.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="node-DefinitelyTyped" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_github.com_DefinitelyTyped_DefinitelyTyped_raw_master_node_node.d.ts" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_github.com_DefinitelyTyped_DefinitelyTyped_raw_master_node_node.d.ts" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="pixi" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$USER_HOME$/Documents/Visual Studio 2013/pixi" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/Documents/Visual Studio 2013/pixi" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="queue" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$USER_HOME$/Documents/GitHub/queue" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/Documents/GitHub/queue" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="tinycolor" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$USER_HOME$/Documents/Visual Studio 2013/tinycolor" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/Documents/Visual Studio 2013/Projects/d3/libs/tinycolor" />
+        <root url="file://$USER_HOME$/Documents/Visual Studio 2013/tinycolor" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+  </component>
+</application>

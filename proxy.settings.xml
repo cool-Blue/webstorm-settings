@@ -1,0 +1,8 @@
+<application>
+  <component name="HttpConfigurable">
+    <option name="PROXY_HOST" value="fiddler" />
+    <option name="PROXY_PORT" value="8888" />
+    <option name="USE_PAC_URL" value="true" />
+    <option name="PAC_URL" value="file:///C:/Users/Admin/Documents/Fiddler2/Scripts/BrowserPAC.js" />
+  </component>
+</application>
