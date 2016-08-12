@@ -69,4 +69,10 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="wrapdescr" value="describe('$TESTNAME$', function () {&#10;    $SELECTION$&#10;});&#10;$END$" description="wraps a describe arround selected it clauses" toReformat="false" toShortenFQNames="true">
+    <variable name="TESTNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
