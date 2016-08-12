@@ -35,8 +35,16 @@
     </context>
   </template>
   <template name="function" value="function $name$($args$) {&#10;&#10;    $END$&#10;    &#10;}" description="function block" toReformat="true" toShortenFQNames="true">
-    <variable name="name" expression="completeSmart()" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
     <variable name="args" expression="" defaultValue="args" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="protomethod" value="$class$.prototype.$method$ = function $method$($args$){&#10;    $END$&#10;}" description="add method to class prototype" toReformat="false" toShortenFQNames="true">
+    <variable name="class" expression="" defaultValue="&quot;myClass&quot;" alwaysStopAt="true" />
+    <variable name="method" expression="" defaultValue="&quot;myMethod&quot;" alwaysStopAt="true" />
+    <variable name="args" expression="" defaultValue="&quot;args&quot;" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
