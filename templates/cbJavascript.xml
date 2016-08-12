@@ -57,7 +57,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="protaccessor" value="$class$.prototype.$method$ = function $method$($member$){&#10;    if(!$member$) return this.$member$;&#10;    this.$member$ = $member$;&#10;    return this;&#10;};&#10;$END$&#10;" description="puts a setter getter on the prototype" toReformat="false" toShortenFQNames="true">
+  <template name="protaccessor" value="$class$.prototype.$method$ = function $method$($member$){&#10;    if(typeof $member$ === 'undefined') return this.$member$;&#10;    this.$member$ = $member$;&#10;    return this;&#10;};&#10;$END$&#10;" description="puts a setter getter on the prototype" toReformat="false" toShortenFQNames="true">
     <variable name="class" expression="jsClassName()" defaultValue="" alwaysStopAt="true" />
     <variable name="method" expression="" defaultValue="&quot;member&quot;" alwaysStopAt="true" />
     <variable name="member" expression="" defaultValue="" alwaysStopAt="true" />
