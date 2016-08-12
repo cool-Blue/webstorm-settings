@@ -49,10 +49,14 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="es5class" value="var $Constructor$ = (function(){&#10;    function $class$ ($options$) {&#10;        if (!(this instanceof $Constructor$))&#10;            return new $Constructor$($options$);&#10;        &#10;        $END$&#10;  &#10;    }&#10;    return $class$&#10;});" description="create an ES5 class" toReformat="false" toShortenFQNames="true">
-    <variable name="Constructor" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="class" expression="camelCase(Constructor)" defaultValue="" alwaysStopAt="false" />
+  <template name="es5class" value="var $Constructor$ = (function($options$){&#10;    &#10;    // private state&#10;    var $private1$;&#10;    &#10;    // constructor&#10;    function $Constructor$ ($options$) {&#10;        if (!(this instanceof $Constructor$))&#10;            return new $Constructor$($options$);&#10;            &#10;        // init private state&#10;        $private1$ = $END$;&#10;        &#10;        // init public instance state&#10;        this.$inst1$ = 0;&#10;        &#10;    }&#10;    &#10;    // public static members&#10;    $Constructor$.prototype.$accessor1$ = function $accessor1$($value1$){&#10;        if(typeof $value1$ === 'undefined') return $private1$;&#10;        $private1$ = $value1$;&#10;        return this;&#10;    };&#10;    $Constructor$.prototype.$method1$ = function $method1$(){&#10;    &#10;        return this;&#10;    }&#10;    &#10;    return $Constructor$&#10;})($options$);" description="create an ES5 class" toReformat="false" toShortenFQNames="true">
+    <variable name="Constructor" expression="" defaultValue="&quot;Constructor" alwaysStopAt="true" />
+    <variable name="private1" expression="" defaultValue="&quot;_&quot;" alwaysStopAt="true" />
     <variable name="options" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="inst1" expression="" defaultValue="&quot;inst1&quot;" alwaysStopAt="true" />
+    <variable name="accessor1" expression="underscoresToCamelCase(private1)" defaultValue="" alwaysStopAt="true" />
+    <variable name="value1" expression="" defaultValue="accessor1" alwaysStopAt="true" />
+    <variable name="method1" expression="" defaultValue="&quot;method" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
