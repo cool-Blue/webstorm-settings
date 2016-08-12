@@ -42,9 +42,25 @@
     </context>
   </template>
   <template name="protomethod" value="$class$.prototype.$method$ = function $method$($args$){&#10;    $END$&#10;}" description="add method to class prototype" toReformat="false" toShortenFQNames="true">
-    <variable name="class" expression="" defaultValue="&quot;myClass&quot;" alwaysStopAt="true" />
+    <variable name="class" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
     <variable name="method" expression="" defaultValue="&quot;myMethod&quot;" alwaysStopAt="true" />
     <variable name="args" expression="" defaultValue="&quot;args&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="es5class" value="var $Constructor$ = (function(){&#10;    function $class$ ($options$) {&#10;        if (!(this instanceof $Constructor$))&#10;            return new $Constructor$($options$);&#10;        &#10;        $END$&#10;  &#10;    }&#10;    return $class$&#10;});" description="create an ES5 class" toReformat="false" toShortenFQNames="true">
+    <variable name="Constructor" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="class" expression="camelCase(Constructor)" defaultValue="" alwaysStopAt="false" />
+    <variable name="options" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="protaccessor" value="$class$.prototype.$method$ = function $method$($member$){&#10;    if(!$member$) return this.$member$;&#10;    this.$member$ = $member$;&#10;    return this;&#10;};&#10;$END$&#10;" description="puts a setter getter on the prototype" toReformat="false" toShortenFQNames="true">
+    <variable name="class" expression="jsClassName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="method" expression="" defaultValue="&quot;member&quot;" alwaysStopAt="true" />
+    <variable name="member" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
