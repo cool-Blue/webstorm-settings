@@ -11,7 +11,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="req" value="const $requireAs$ = require('$sourcePath$');" toReformat="false" toShortenFQNames="true">
+  <template name="req" value="const $requireAs$ = require('$sourcePath$');" description="node require statement" toReformat="true" toShortenFQNames="true">
     <variable name="sourcePath" expression="" defaultValue="requireAs" alwaysStopAt="true" />
     <variable name="requireAs" expression="camelCase(sourcePath)" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -71,6 +71,13 @@
   </template>
   <template name="wrapdescr" value="describe('$TESTNAME$', function (done) {&#10;    $SELECTION$&#10;});&#10;$END$" description="wraps a describe arround selected it clauses" toReformat="false" toShortenFQNames="true">
     <variable name="TESTNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name=",req" value="$requireAs$ = require('$sourcePath$')" description="node require continuing in var statement" toReformat="true" toShortenFQNames="true">
+    <variable name="sourcePath" expression="" defaultValue="requireAs" alwaysStopAt="true" />
+    <variable name="requireAs" expression="camelCase(sourcePath)" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
