@@ -2,8 +2,8 @@
   <tool name="phantomJs" description="run current javascript in phantomJS" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="C:\Users\Admin\phantomjs-2.1.1-windows\bin\phantomjs.exe" />
-      <option name="PARAMETERS" value="$FilePath$" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/phantomjs-2.1.1-windows/bin" />
+      <option name="PARAMETERS" value="$FilePath$ --remote-debugger-autorun=yes --remote-debugger-port=9000" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>
   </tool>
 </toolSet>
