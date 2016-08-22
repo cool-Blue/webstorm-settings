@@ -2,7 +2,7 @@
   <tool name="debug phantomJs" description="run current javascript in phantomJS in debug mode open http://127.0.0.1:9000 to debug" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="C:\Users\Admin\phantomjs-2.1.1-windows\bin\phantomjs.exe" />
-      <option name="PARAMETERS" value="--remote-debugger-port=9000 $FilePath$" />
+      <option name="PARAMETERS" value=" --remote-debugger-autorun=yes --remote-debugger-port=9000 $FilePath$" />
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>
   </tool>
