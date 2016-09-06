@@ -17,6 +17,7 @@
       <mapping pattern="mm-fp4" type="PLAIN_TEXT" />
       <mapping pattern="client connected" type="PLAIN_TEXT" />
       <mapping pattern=".balelrc" type="PLAIN_TEXT" />
+      <mapping pattern="myfoo" type="PLAIN_TEXT" />
       <mapping pattern="host connected" type="PLAIN_TEXT" />
       <mapping pattern="manual-restart" type="PLAIN_TEXT" />
       <mapping pattern="disconnect-client" type="PLAIN_TEXT" />
