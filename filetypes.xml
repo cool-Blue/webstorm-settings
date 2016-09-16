@@ -13,12 +13,13 @@
       <mapping ext="prc" type="DBN-PSQL" />
       <mapping ext="trg" type="DBN-PSQL" />
       <mapping ext="vw" type="DBN-SQL" />
+      <mapping pattern="jsesc.1" type="Markdown" />
+      <mapping pattern="client connected" type="PLAIN_TEXT" />
       <mapping pattern="products" type="PLAIN_TEXT" />
       <mapping pattern="b0de8235a5b44376545853982ba60f8e08ceda" type="PLAIN_TEXT" />
       <mapping pattern="normal-start" type="PLAIN_TEXT" />
-      <mapping pattern="untracked1" type="PLAIN_TEXT" />
       <mapping pattern="mm-fp4" type="PLAIN_TEXT" />
-      <mapping pattern="client connected" type="PLAIN_TEXT" />
+      <mapping pattern="untracked1" type="PLAIN_TEXT" />
       <mapping pattern=".balelrc" type="PLAIN_TEXT" />
       <mapping pattern="myfoo" type="PLAIN_TEXT" />
       <mapping pattern="host connected" type="PLAIN_TEXT" />
