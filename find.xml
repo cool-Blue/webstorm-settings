@@ -3,11 +3,11 @@
     <option name="caseSensitive" value="true" />
     <option name="customScope" value="File '[Git] - ...\etc\profile.d\git-prompt.sh'" />
     <option name="defaultScopeName" value="File '[Git] - ...\etc\profile.d\git-prompt.sh'" />
-    <option name="localRegularExpressions" value="true" />
+    <option name="localCaseSensitive" value="true" />
     <option name="wholeWordsOnly" value="true" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="WHOLE_WORDS_ONLY" value="true" />
-    <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="File '[Git] - ...\etc\profile.d\git-prompt.sh'" />
     <recentFileMasks>
       <mask>*.properties</mask>
