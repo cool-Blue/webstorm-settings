@@ -34,11 +34,11 @@
     <library name="d3" type="javaScript">
       <properties>
         <sourceFilesUrls>
-          <item url="file://$USER_HOME$/Documents/GitHub/d3" />
+          <item url="file://$USER_HOME$/Documents/GitHub/d3.4" />
         </sourceFilesUrls>
       </properties>
       <CLASSES>
-        <root url="file://$USER_HOME$/Documents/GitHub/d3" />
+        <root url="file://$USER_HOME$/Documents/GitHub/d3.4" />
       </CLASSES>
       <SOURCES />
     </library>
