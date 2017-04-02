@@ -20,6 +20,7 @@
       <mapping pattern="normal-start" type="PLAIN_TEXT" />
       <mapping pattern="mm-fp4" type="PLAIN_TEXT" />
       <mapping pattern="client connected" type="PLAIN_TEXT" />
+      <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping pattern=".balelrc" type="PLAIN_TEXT" />
       <mapping pattern="myfoo" type="PLAIN_TEXT" />
       <mapping pattern="host connected" type="PLAIN_TEXT" />
@@ -29,9 +30,9 @@
       <mapping ext="csv" type="PLAIN_TEXT" />
       <mapping ext="crx" type="PLAIN_TEXT" />
       <mapping ext="lnk" type="PLAIN_TEXT" />
+      <mapping ext="cls" type="PLAIN_TEXT" />
       <mapping ext="xpi" type="PLAIN_TEXT" />
       <mapping ext="bas" type="PLAIN_TEXT" />
-      <mapping ext="cls" type="PLAIN_TEXT" />
       <mapping ext="tsv" type="PLAIN_TEXT" />
       <mapping ext="txt___jb_tmp___" type="PLAIN_TEXT" />
       <mapping ext="name" type="PLAIN_TEXT" />
