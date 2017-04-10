@@ -14,7 +14,6 @@
       <mapping ext="trg" type="DBN-PSQL" />
       <mapping ext="vw" type="DBN-SQL" />
       <mapping pattern="test" type="JavaScript" />
-      <mapping pattern="jsesc.1" type="Markdown" />
       <mapping pattern="products" type="PLAIN_TEXT" />
       <mapping pattern="b0de8235a5b44376545853982ba60f8e08ceda" type="PLAIN_TEXT" />
       <mapping pattern="normal-start" type="PLAIN_TEXT" />
@@ -30,12 +29,14 @@
       <mapping ext="csv" type="PLAIN_TEXT" />
       <mapping ext="crx" type="PLAIN_TEXT" />
       <mapping ext="lnk" type="PLAIN_TEXT" />
-      <mapping ext="cls" type="PLAIN_TEXT" />
+      <mapping ext="md" type="PLAIN_TEXT" />
       <mapping ext="xpi" type="PLAIN_TEXT" />
       <mapping ext="bas" type="PLAIN_TEXT" />
+      <mapping ext="cls" type="PLAIN_TEXT" />
       <mapping ext="tsv" type="PLAIN_TEXT" />
       <mapping ext="txt___jb_tmp___" type="PLAIN_TEXT" />
       <mapping ext="name" type="PLAIN_TEXT" />
+      <mapping pattern="jsesc.1" type="Markdown" />
     </extensionMap>
   </component>
 </application>
