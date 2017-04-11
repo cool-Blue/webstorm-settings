@@ -1,6 +1,8 @@
 <application>
   <component name="CodeFoldingSettings">
     <option name="COLLAPSE_METHODS" value="true" />
+    <option name="COLLAPSE_DOC_COMMENTS" value="true" />
+    <option name="COLLAPSE_CUSTOM_FOLDING_REGIONS" value="true" />
   </component>
   <component name="CodeInsightSettings">
     <option name="SURROUND_SELECTION_ON_QUOTE_TYPED" value="true" />
@@ -10,5 +12,12 @@
     <option name="collapseObjectLiterals" value="true" />
     <option name="COLLAPSE_OBJECT_LITERALS" value="true" />
     <option name="COLLAPSE_ARRAY_LITERALS" value="true" />
+  </component>
+  <component name="MarkdownFoldingSettings">
+    <option name="COLLAPSE_VERBATIM_BLOCKS" value="true" />
+    <option name="COLLAPSE_CODE_FENCE_BLOCKS" value="true" />
+    <option name="COLLAPSE_REFERENCES" value="true" />
+    <option name="COLLAPSE_EXPLICIT_LINKS" value="true" />
+    <option name="COLLAPSE_MULTILINE_URL_IMAGES" value="true" />
   </component>
 </application>
