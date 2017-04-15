@@ -8,10 +8,11 @@
     <general />
     <debuggers>
       <debugger id="javascript">
-        <configuration captureAsyncStackTraces="false">
+        <configuration captureAsyncStackTraces="false" doNotStepIntoLibraryCode="false">
           <custom-object-presentation>
             <properties />
           </custom-object-presentation>
+          <stepping-filters-enabled>false</stepping-filters-enabled>
         </configuration>
       </debugger>
     </debuggers>
