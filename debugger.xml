@@ -8,7 +8,7 @@
     <general />
     <debuggers>
       <debugger id="javascript">
-        <configuration captureAsyncStackTraces="false" doNotStepIntoLibraryCode="false">
+        <configuration captureAsyncStackTraces="false">
           <custom-object-presentation>
             <properties />
           </custom-object-presentation>
