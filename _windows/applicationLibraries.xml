@@ -24,6 +24,17 @@
       </CLASSES>
       <SOURCES />
     </library>
+    <library name="angular-nvd3" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_angular-nvd3_1.0.9_angular-nvd3.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_angular-nvd3_1.0.9_angular-nvd3.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
     <library name="angular-resource" type="javaScript">
       <properties>
         <sourceFilesUrls>
@@ -103,10 +114,12 @@
       <properties>
         <sourceFilesUrls>
           <item url="file://$USER_HOME$/Documents/GitHub/d3.4" />
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_d3_3.3.5_d3.js" />
         </sourceFilesUrls>
       </properties>
       <CLASSES>
         <root url="file://$USER_HOME$/Documents/GitHub/d3.4" />
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_d3_3.3.5_d3.js" />
       </CLASSES>
       <SOURCES />
     </library>
@@ -201,6 +214,17 @@
       </properties>
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_github.com_DefinitelyTyped_DefinitelyTyped_raw_master_node_node.d.ts" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="nv.d3" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_nvd3_1.8.5_nv.d3.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_nvd3_1.8.5_nv.d3.js" />
       </CLASSES>
       <SOURCES />
     </library>
